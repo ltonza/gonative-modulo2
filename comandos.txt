@@ -1,0 +1,11 @@
+
+react-native init <nome da aplicação>
+react-native run-android   # so uma vez ou quando precisar reinstalar a aplicação ( link de pacotes nativos por exemplo )
+react-native start   # demais vezes ( executa somente o bandle, necessário fazer reload na aplicação)
+< enable live reload, na aplicação >
+react-native start --reset-cache
+
+yarn add react-navigation react-native-gesture-handler // este último para animações, gestos do usuário
+
+react-native link react-native-gesture-handler  // para fazer as configurações nativas do pacote
+react-native run-android  // é necessário devido ao comando anterior
